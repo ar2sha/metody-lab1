@@ -12,3 +12,8 @@
 Повышенной сложности:
 - №2 — настройка SSH-ключа и подключение к GitHub
 - №6 — настройка GitHub Actions для проверки Python-кода
+
+## Доказательство SSH-подключения
+
+$ ssh -T git@github.com
+Hi ar2sha! You've successfully authenticated, but GitHub does not provide shell access.
